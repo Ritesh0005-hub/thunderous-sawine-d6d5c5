@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Registers CalcDock's forms with Netlify at build time. Never shown to users. -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="topic"><option value="General question">General question</option></select>
+      <input type="text" name="company" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="pro-waitlist" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
+      <input type="email" name="email" />
+      <select name="interest"><option value="Saved calculation history">Saved calculation history</option></select>
+    </form>
+  </body>
+</html>
